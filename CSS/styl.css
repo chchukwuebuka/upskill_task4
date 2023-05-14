@@ -1,0 +1,291 @@
+/* Reset */
+*  {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+
+html,body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.7;
+}
+
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+#navbar {
+    background: #fff;
+    overflow: auto;
+    padding: 20px;
+}
+
+.demo {
+    background: #00ff00;
+    padding: 10px;
+    border-radius: 10%;
+}
+
+button {
+    float: right;
+}
+
+h1::first-letter {
+    color: #00ff00;
+}
+
+#showcase {
+    text-align: center;
+    padding: 50px;
+    font-size: large;
+    margin-top: 3px;  
+}
+
+.LG {
+    font-size: xx-large;
+}
+
+.show {
+    display: flex;
+
+}
+
+.p {
+    text-align: center;
+    padding: -5px;
+    margin-top: 5px;
+}
+
+.flex-item {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.flex-item > button {
+    padding: 10px;
+    margin: 15px;
+    color: #00ff00;
+    width: 150px;
+    border-radius: 10px;
+    border-color: #00ff00;
+}
+
+.d {
+    background: #00ff00;
+}
+
+#img1 {
+    padding: 10px;
+}
+
+.section-header {
+    text-align: center;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.image {
+    max-width: 1000px;
+    margin: auto;
+    border: 2px;
+}
+
+.item1  {
+    padding: 5px;
+    margin: 5px;
+    width: 180px;
+    background: gainsboro;
+    height: 90px;
+}
+
+
+.item2  {
+    padding: 5px;
+    margin: 5px;
+    width: 180px;
+    background: gainsboro;
+    height: 90px;
+}
+
+
+.item3  {
+    padding: 5px;
+    margin: 5px;
+    width: 150px;
+    background: gainsboro;
+    height: 90px;
+}
+
+
+.item4  {
+    padding: 5px;
+    margin: 5px;
+    width: 200px;
+    background: gainsboro;
+    height: 90px;
+}
+
+
+.item5  {
+    padding: 5px;
+    margin: 5px;
+    width: 180px;
+    background: gainsboro;
+    height: 90px;
+}
+
+
+.item6  {
+    padding: 5px;
+    margin: 5px;
+    width: 180px;
+    background: gainsboro;
+    height: 90px;
+}
+
+
+.item7  {
+    padding: 5px;
+    margin: 5px;
+    width: 200px;
+    background: gainsboro;
+    height: 90px;
+}
+
+
+.item8  {
+    padding: 5px;
+    margin: 5px;
+    width: 200px;
+    background: gainsboro;
+    height: 90px;
+}
+
+
+.item9  {
+    padding: 5px;
+    margin: 5px;
+    width: 200px;
+    background: gainsboro;
+    height: 90px;
+}
+
+
+.item10  {
+    padding: 5px;
+    margin: 5px;
+    background: gainsboro;
+    width: 200px;
+    height: 90px;
+}
+
+
+.item11  {
+    padding: 5px;
+    margin: 5px;
+    width: 200px;
+    background: gainsboro;
+    height: 90px;
+}
+
+
+.item12  {
+    padding: 5px;
+    margin: 5px;
+    width: 200px;
+    background: gainsboro;
+    height: 90px;
+} 
+
+#why {
+    background: #000000;
+    padding: 50px;
+    color: #fff;
+}
+
+.secure {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    margin: 10px;
+}
+
+.row {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row-reverse;
+    
+}
+
+.per {
+    padding: 50px;
+}
+
+.column {
+    margin: 10px;
+}
+
+.col {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    justify-content: center;
+    
+}
+
+.column-1 {
+    align-content: center;
+    margin: 5px;
+    padding: 30px;
+    width: 700px;
+}
+
+
+.column-2 {
+    margin: 10px;
+    padding: 10px;
+}
+
+.column-3 {
+    align-content: center;
+    margin: 5px;
+    padding: 30px;
+    width: 500px;
+}
+.column-4 {
+    margin: 5px;
+    padding:30px;
+    width: 500px;
+}
+.column-5 {
+    margin: 5px;
+    padding: 30px;
+    width: 500px;
+}
+
+.bt {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.btn {
+    padding: 10px;
+    margin: 15px;
+    color: #fff;
+    width: 150px;
+    border-radius: 10px;
+    background: #00ff00;
+    
+}
+
