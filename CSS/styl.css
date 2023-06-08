@@ -25,12 +25,6 @@ html,body {
     padding: 20px;
 }
 
-.demo {
-    background: #00ff00;
-    padding: 10px;
-    border-radius: 10%;
-}
-
 button {
     float: right;
 }
@@ -80,9 +74,6 @@ h1::first-letter {
     background: #00ff00;
 }
 
-#img1 {
-    padding: 10px;
-}
 
 .section-header {
     text-align: center;
@@ -95,9 +86,9 @@ h1::first-letter {
 }
 
 .image {
-    max-width: 1000px;
-    margin: auto;
-    border: 2px;
+    display: grid;
+    grid-template-columns: 200px 200px 200px 200px;
+    justify-content: center;
 }
 
 .item1  {
@@ -121,7 +112,7 @@ h1::first-letter {
 .item3  {
     padding: 5px;
     margin: 5px;
-    width: 150px;
+    width: 180px;
     background: gainsboro;
     height: 90px;
 }
@@ -130,7 +121,7 @@ h1::first-letter {
 .item4  {
     padding: 5px;
     margin: 5px;
-    width: 200px;
+    width: 180px;
     background: gainsboro;
     height: 90px;
 }
@@ -157,7 +148,7 @@ h1::first-letter {
 .item7  {
     padding: 5px;
     margin: 5px;
-    width: 200px;
+    width: 180px;
     background: gainsboro;
     height: 90px;
 }
@@ -166,7 +157,7 @@ h1::first-letter {
 .item8  {
     padding: 5px;
     margin: 5px;
-    width: 200px;
+    width: 180px;
     background: gainsboro;
     height: 90px;
 }
@@ -175,7 +166,7 @@ h1::first-letter {
 .item9  {
     padding: 5px;
     margin: 5px;
-    width: 200px;
+    width: 180px;
     background: gainsboro;
     height: 90px;
 }
@@ -185,7 +176,7 @@ h1::first-letter {
     padding: 5px;
     margin: 5px;
     background: gainsboro;
-    width: 200px;
+    width: 180px;
     height: 90px;
 }
 
@@ -193,7 +184,7 @@ h1::first-letter {
 .item11  {
     padding: 5px;
     margin: 5px;
-    width: 200px;
+    width: 180px;
     background: gainsboro;
     height: 90px;
 }
@@ -202,7 +193,7 @@ h1::first-letter {
 .item12  {
     padding: 5px;
     margin: 5px;
-    width: 200px;
+    width: 180px;
     background: gainsboro;
     height: 90px;
 } 
@@ -282,10 +273,206 @@ h1::first-letter {
 .btn {
     padding: 10px;
     margin: 15px;
-    color: #fff;
     width: 150px;
     border-radius: 10px;
     background: #00ff00;
     
+}
+
+@media (max-width: 500px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+        justify-items: flex-end;
+    }
+
+    .container h1 {
+        text-align: center;
+    }
+    
+    #navbar {
+        background: #fff;
+        padding: 8px;
+    }
+
+    .img {
+        max-width: 300px;
+    }
+
+    #showcase {
+        text-align: center;
+        padding: 20px;
+        font-size: large;
+        margin-top: 3px;  
+    }
+
+    .image {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .row {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;  
+    }
+
+    .column-1 {
+        align-content: first baseline;
+        margin: 5px;
+        padding: 3px;
+        width: 390px;
+        height: 350px;
+    }
+
+    .col {
+        display: flex;
+        flex-direction: column;
+        justify-content: center; 
+        padding: 5px;
+    }
+
+    .column-2 {
+       width: 300px;   
+    }
+    .column-3 {
+        width: 300px;
+    }
+    .column-4 {
+         width: 300px;
+         margin: 3px;
+    }
+    .column-5 {
+        width: 300px;
+    }
+
+    #why {
+        background: #000000;
+        padding: 10px;
+        color: #fff;
+        width: 400px;
+    }
+
+    .item1  {
+        padding: 5px;
+        margin: 5px;
+        width: 80px;
+        background: gainsboro;
+        height: 90px;
+    }
+    
+    
+    .item2  {
+        padding: 5px;
+        margin: 5px;
+        width: 80px;
+        background: gainsboro;
+        height: 90px;
+    }
+    
+    
+    .item3  {
+        padding: 5px;
+        margin: 5px;
+        width: 80px;
+        background: gainsboro;
+        height: 90px;
+    }
+    
+    
+    .item4  {
+        padding: 5px;
+        margin: 5px;
+        width: 80px;
+        background: gainsboro;
+        height: 90px;
+    }
+    
+    
+    .item5  {
+        padding: 5px;
+        margin: 5px;
+        width: 80px;
+        background: gainsboro;
+        height: 90px;
+    }
+    
+    
+    .item6  {
+        padding: 5px;
+        margin: 5px;
+        width: 80px;
+        background: gainsboro;
+        height: 90px;
+    }
+    
+    
+    .item7  {
+        padding: 5px;
+        margin: 5px;
+        width: 80px;
+        background: gainsboro;
+        height: 90px;
+    }
+    
+    
+    .item8  {
+        padding: 5px;
+        margin: 5px;
+        width: 80px;
+        background: gainsboro;
+        height: 90px;
+    }
+    
+    
+    .item9  {
+        padding: 5px;
+        margin: 5px;
+        width: 80px;
+        background: gainsboro;
+        height: 90px;
+    }
+    
+    
+    .item10  {
+        padding: 5px;
+        margin: 5px;
+        background: gainsboro;
+        width: 80px;
+        height: 90px;
+    }
+    
+    
+    .item11  {
+        padding: 5px;
+        margin: 5px;
+        width: 80px;
+        background: gainsboro;
+        height: 90px;
+    }
+    
+    
+    .item12  {
+        padding: 5px;
+        margin: 5px;
+        width: 80px;
+        background: gainsboro;
+        height: 90px;
+    } 
+
+    .ho {
+        padding: 3px;
+    }
+    .so {
+        padding: 3px;
+    }
+    .yo{
+        padding: 3px;
+    }
+    .co{
+        padding: 3px;
+    }
 }
 
